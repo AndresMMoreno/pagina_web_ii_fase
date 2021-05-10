@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+	<link rel="stylesheet" href="misestilos.css">
+</head>
+<body>
+	<header>
+		<div class="wrapp">
+			<div class="logo">
+				<a href="#"><Img src="Imagenes/Escudo_UMB.png" alt="Sitio_WEB"></a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="sintaxis.html">Inicio</a></li>
+					<li><a href="formularios.html">Formulario</a></li>
+					<li><a href="Curriculum.html">Curriculum</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="main">
+		<div class="wrapp">
+			<div class="mensaje">
+				<h1>Bienvenido a Tienda Virtual!</h1>
+			</div>
+      <form action="." name="form1" method="post">
+        <h1>FORMULARIOS</h1>
+        <br><br>
+        <p>Nombre: <input type="text" name="name_control " autofocus required/>
+          <br><br>
+          Corrreo Electronico: <input type="email" name="email control" required>
+          <br><br>
+          URL: <input type="url" name="url control" placeholder="Escribe la url de tu pagina WEB personal"/>
+          <br><br>
+          Fecha: <input type="date" name="date_control"/>
+          <br><br>
+          Tiempo: <input type="time" name="time_control"/>
+          <br><br>
+          Fecha y hora de nacimiento: <input type="datetime" name="datetime_control"/>
+          <br><br>
+          Mes: <input type="month" name="month_control"/>
+          <br><br>
+          Semana: <input type="week" name="week_control"/>
+          <br><br>
+          Numero (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0"/>
+          <br><br>
+          Intervalo (min 0, max 10): <input type="range" name="range_control" min="0" max="10" value="0"/><output for="range_control" name="range_control_value"></output>
+          <br><br>
+          Telefono: <input type="tel" name="tel_control"/>
+          <br><br>
+          Termino de busqueda: <input type="search" name="search_control"/>
+          <br><br>
+          Color favorito: <input type="color" name="color_control"/>
+          <br><br>
+          <input type="submit" value="Enviar"/>
+          <br>
+        </p>
+      </form>
+    </section>
+	<footer>
+		<div class="wrapp">
+			<p>copyright Andres Moreno - Diseño WEB - Actividad 3</p>
+		</div>
+	</footer>
+</body>
+</html>
